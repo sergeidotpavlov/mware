@@ -1,6 +1,6 @@
 module github.com/sergeidotpavlov/mware
 
-go 1.22.1
+go 1.21.8
 
 require (
 	github.com/gofrs/uuid/v5 v5.0.0
