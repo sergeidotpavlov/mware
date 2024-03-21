@@ -10,7 +10,7 @@ import (
 
 var pool *pgxpool.Pool
 
-func initPool() error {
+func InitPool() error {
 	dbpath, exists := os.LookupEnv("DATABASE_URL")
 	// dbpath = "postgresql:///systemK?host=localhost&port=5432&user=user1&password=1user"
 	if exists {
